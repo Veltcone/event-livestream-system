@@ -1,0 +1,434 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+    font-family: 'Montserrat'; 
+    
+  background-image: url('../assets/admin/cover_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html body{
+    overflow: hidden;
+    margin: 0;
+}
+
+.center_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    
+}
+
+.links {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#landing_wrapper {
+  position: relative;
+  width: 100%;
+  color: #16a085;
+  min-width: 50px;
+  min-height: 30px;
+    margin-top: 4em;
+}
+
+#landing_wrapper h1 {
+  font-size: 5em;
+  line-height: 1em;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+#landing_wrapper h3 {
+  font-size: 2.3em;
+    font-weight: 600;
+  line-height: 1em;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+    text-transform: uppercase;
+}
+
+#menu_bar {
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+    padding-left: 0;
+  width: 15%;
+    -webkit-animation-delay:1.5s;
+    -webkit-animation-duration:1.5s;
+}
+
+#menu_bar li > a {
+  display: block;
+  box-sizing: border-box-box;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.75em;
+  padding: 10px 15px;
+}
+
+#menu_bar li {
+  padding-bottom: 0.2em;
+}
+
+#menu_bar li:hover {
+  border-bottom: 3px solid #FFFFFF;
+  padding-bottom: 0;
+}
+
+#logo {
+  margin-bottom: 40px;
+  width: 100px;
+  height: 100px;
+}
+
+.top_links {
+  height: 35px;
+}
+
+#history_link {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #FFFFFF;
+}
+
+#history_link #title {
+  display: block;
+  font-size: 0.75em;
+  line-height: 1em;
+  margin-bottom: 4px;
+}
+
+#history_link #text {
+  font-family: boldFont;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+#countdown {
+  flex-direction: row;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #FFFFFF;
+  font-size: 1em;
+  font-family: boldFont;
+  font-weight: bold;
+  height:
+}
+
+#countdown span {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 0.75em;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  color: #AF3D33;
+  margin-right: 8px;
+}
+
+#coming_soon {
+    margin-top: 2em;
+  font-size: 1em;
+  font-weight: 100;
+  color: #FFFFFF;
+        -webkit-animation-delay:1s;
+    -webkit-animation-duration:1.5s;
+}
+
+.staticbold {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+/* ====  Fields Code  ==== */
+
+
+/*---------------------------------------------*/
+input {
+	outline: none;
+	border: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
+
+input::-webkit-input-placeholder {color: #cccccc;}
+input:-moz-placeholder {color: #cccccc;}
+input::-moz-placeholder {color: #cccccc;}
+input:-ms-input-placeholder {color: #cccccc;}
+
+textarea::-webkit-input-placeholder {color: #cccccc;}
+textarea:-moz-placeholder {color: #cccccc;}
+textarea::-moz-placeholder {color: #cccccc;}
+textarea:-ms-input-placeholder {color: #cccccc;}
+
+/*---------------------------------------------*/
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/*---------------------------------------------*/
+
+.wrap-login100 {
+  width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 7vw;
+}
+
+.login100-div {
+    width: 20em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: table-cell;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    
+}
+
+.login100-form {
+    width: 30em;
+    margin-top: 3em;
+}
+
+.lessmargin {
+    margin-top: 0em;
+}
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 25px;
+    
+    
+}
+
+.input100 {
+  display: block;
+  width: 100%;
+  height: 30px;
+  background: transparent;
+  font-weight: 200;
+  font-family: 'Montserrat', 'Helvetica', sans-serif !important;
+  font-size: 15px;
+    letter-spacing: 0.1px;
+  color: #dbdbdb;
+  line-height: 1.2;
+  padding: 0 2px;
+}
+
+.focus-input100 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-input100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  background: #394c6e;
+  background: -webkit-linear-gradient(45deg, #394c6e, #394c6e);
+  background: -o-linear-gradient(45deg, #394c6e, #394c6e);
+  background: -moz-linear-gradient(45deg, #394c6e, #394c6e);
+  background: linear-gradient(45deg, #394c6e, #394c6e);
+}
+
+
+.input100:focus + .focus-input100::before {
+  width: 100%;
+}
+
+.has-val.input100 + .focus-input100::before {
+  width: 100%;
+}
+
+.container-login100-form-btn {
+  width: 6.4em;
+    padding-left: 2em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: table-cell;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-login100-form-btn2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    margin: 0;
+    width: 290px;
+}
+
+.wrap-login100-form-btn {
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.login100-form-bgbtn {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 300%;
+  background: #394c6e;
+  background: -webkit-linear-gradient(top, #253d49, #394c6e, #253d49, #394c6e);
+  background: -o-linear-gradient(top, #253d49, #394c6e, #253d49, #394c6e);
+  background: -moz-linear-gradient(top, #253d49, #394c6e, #253d49, #394c6e);
+  background: linear-gradient(top, #253d49, #394c6e, #253d49, #394c6e);
+  bottom: -100%;
+  left: 0;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.login100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 100px;
+  height: 25px;
+
+  font-weight:500;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.login100-form-btn2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 00px;
+  height: 25px;
+
+  font-weight:600;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.wrap-login100-form-btn:hover .login100-form-bgbtn {
+  bottom: 0;
+}
+.login100-livelinkgroup {
+    display: block;
+    
+        -webkit-animation-delay:0.5s;
+    -webkit-animation-duration:1.5s;
+}
+
+.videos {
+    text-align: center;
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 94%;
+    -webkit-animation-delay:2s;
+    -webkit-animation-duration:1.5s;
+}
+
+iframe {
+    text-align: center;
+    margin-left: 5em;
+}
+
+.phpjsn {
+    font-weight: 200;
+    color: #FCFCFC;
+    text-align: right;
+}
