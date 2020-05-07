@@ -4,7 +4,9 @@ PHP based modern, secure event live stream system with a login system and admin 
 # link
 Use the link below to visit the live stream system
 
-http://harshpatel.ca/projects/event-livestream-system/
+https://harshpatel.ca/projects/event-livestream-system/
 
 Username: user<br>
 Password: test
+
+*Demo Currently Down
