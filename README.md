@@ -1,12 +1,15 @@
 # event-livestream-system
 PHP based modern, secure event live stream system with a login system and admin console.
 
-# link
-Use the link below to visit the live stream system
+# Screenshots
+<p align="center"><img src="https://i.imgur.com/ZlhRKhK.png" alt="ss"/></p>
+<p align="center"><img src="https://i.imgur.com/46DxWlt.png" alt="ss"/></p>
+<p align="center"><img src="https://i.imgur.com/678dEwz.png" alt="ss"/></p>
 
-https://harshpatel.ca/projects/event-livestream-system/
+# Demo
+Use the link below to try the demo!
+
+https://liveapp.dradh.com
 
 Username: user<br>
 Password: test
-
-*Demo Currently Down
